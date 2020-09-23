@@ -10,4 +10,8 @@ def initialize (name,breed,age)
      
      
 end
+
+def self.all 
+    All
+end
 end
