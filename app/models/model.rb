@@ -1,3 +1,3 @@
-class Model <Dog
+class Model
 
 end

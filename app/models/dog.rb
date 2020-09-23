@@ -1,15 +1,9 @@
-class Dog 
-  attr_accessor :name , :breed , :age
- @@all  = []
-  def initialization(name, breed, age)
-    @name =name
-    @breed = breed
-    @age = age 
-    @@all << self
-  end
+class Dog
 
-  def self.all 
-    @@all
-  end
+attr_accessor :name, :breed
 
+def initialize (name, breed)
+     @name = name
+     @breed = breed
+end
 end
